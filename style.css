@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1b004b;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: #f988ff;
+}
+
+header {
+  background-color: #4c007d;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-title {
+  font-size: 2em;
+  color: #fff;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.titulo {
+  margin-bottom: 50px;
+  font-size: 2.5em;
+  text-align: center;
+  color: #fff;
+}
+
+.lab {
+  margin-bottom: 15px;
+  font-size: 1.1em;
+  color: #f988ff;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  margin: 20px;
+  background-color: #1b004b;
+  border: 1px solid #4c007d;
+  border-radius: 0.5em;
+  width: 30vw;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 1em;
+  color: #f988ff;
+  background: none;
+  border: 2px solid #f988ff;
+  border-radius: 0.5em;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #f988ff;
+  color: #1b004b;
+}
+
+.text-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 1em;
+  background-color: #1b004b;
+  color: #f988ff;
+  border: 2px solid #4c007d;
+  border-radius: 0.5em;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #000;
+}
+
+.pie {
+  font-family: alegreya-light;
+  font-size: 1em;
+  color: #fff;
+}
+
+#default-image {
+  display: none;
+  max-width: 100%;
+  height: auto;
+}

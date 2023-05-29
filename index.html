@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Challenge I:Encriptador</title>
+</head>
+
+<body>
+  <header>
+    <h2 class="header-title">Alura Challenge</h2>
+  </header>
+
+  <div class="sup"></div>
+  <h1 class="titulo">ENCRIPTADOR DE TEXTO </h1>
+  <br>
+  <br>
+
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <label for="input-texto" class="lab">Solo letras minúsculas, sin acentos</label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
+        <input class="btn" type="button" value="Encriptar!" id="btn-encriptar">
+        <input class="btn" type="button" value="Desencriptar!" id="btn-desencriptar">
+      </form>
+    </section>
+
+    <section class="msg box">
+      <label for="input-texto" class="lab">Mensaje Encriptado</label>
+      <input class="text-input" type="text" id="msg" />
+      <img src="assets/noInfoShow.jpg" alt="Imagen predeterminada" id="default-image" />
+      <input class="btn" type="button" value="Copiar" id="btn-copy" />
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p class="pie">Desarrollado por <a href="https://github.com/L1lD4rKn3ss" target="_blank"
+          rel="noopener noreferrer">Karen Abigail Escarcega Cisneros</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
